@@ -1,0 +1,22 @@
+{
+	"name": "discussion-service",
+	"version": "1.0.0",
+	"description": "Service to handle discussions",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon run index.js"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"elasticsearch": "^16.7.2",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^5.12.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
